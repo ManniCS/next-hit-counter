@@ -6,7 +6,7 @@ function Censored({children}) {
           
   return (
     <button 
-      class={isCensored && "censored"}
+      className={isCensored && "censored"}
       onClick={() => setIsCensored(!isCensored)}
     >
       {children}
